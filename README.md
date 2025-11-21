@@ -1,7 +1,39 @@
-# PWM Signal Simulation & Characterization Project
-Thank you for checking out this project! Although, this project doesn't haven't any special use other than to showcase my skills, feel free to clone this repo and play around with it for whatever reason you may have!
-## Things You Should Know
-* algorithm.py uses matplotlib, scipy, and numpy libraries and Python3. Be sure to download those.
-* For LaTeX editing, you could use Overleaf, but if you're using VS Code, download the LaTeX language support and LaTeX Workshop extensions and be sure to follow the installation instructions for LaTeX Workshop.
-* There is already a pre-compiled PDF of the LaTeX document provided in this repo called finalDocument.pdf as well as the source code for that document called finalDocument.tex.
-* Images of the plots are provided and they will also save a new one every time you run the Python code. If you don't want this to happen, be sure to comment out the lines where it saves the plots as PNGs.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+# PWM Squarewave Characterization - Python Data Analysis Project
+
+## Downloading this Project
+
+1. Navigate to **https://github.com/gigoiy/PWMCharacterization.git**
+2. Click **<> Code**
+3. Click **Download ZIP**
+4. Extract the ZIP folder to a location you desire
+
+## Functions of this Project
+
+- This project does not take any user input or has any useful functionality
+- The purpose of this project is to showcase my mathematical skills and my early experience with Python data analysis libraries\frameworks
+
+## Contents of the Repository
+
+### finalDocument.pdf
+
+- This is the PDF of the finalized report of the project
+- This document showcases the mathematical work done and the characteristics of the squarewave 
+
+### finalDocument.tex
+
+- Raw TeX source for the PDF document
+- Feel free to play around with formatting
+
+### algorithm.py
+
+- Python algorithm that automates the calculations of all the data and characteristics
+- Uses the derived Fourier equations shown in the beginning of the PDF document to accomplish this task
+- Feel free to play around with the numbers, the algorithm is very well commented
+
+## Installing Dependencies if Developing
+
+1. Open up terminal in project directory and navigate to `...\PWMCharacterization\src`
+2. Run: `pip install -r requirements.txt`
+3. Use your favorite TeX editor for editing the LaTeX document
