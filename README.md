@@ -32,6 +32,9 @@
 - Uses the derived Fourier equations shown in the beginning of the PDF document to accomplish this task
 - Feel free to play around with the numbers, the algorithm is very well commented
 
+## Program Architecture
+![Architecture Diagram](assets/PWMCharacterizationArchitectureDiagram.png)
+
 ## Installing Dependencies if Developing
 
 1. Open up terminal in project directory and navigate to `...\PWMCharacterization\src`
