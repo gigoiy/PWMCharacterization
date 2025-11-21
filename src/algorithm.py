@@ -57,7 +57,7 @@ plt.xlabel('Frequency (MHz)')
 plt.ylabel('Magnitude (udB)')
 plt.title('Harmonics of a 179 kHz PWM Square Wave')
 plt.grid()
-plt.savefig('harmonics.png')
+plt.savefig('assets\harmonics.png')
 
 #Create a plot showing the phase of the signal
 fig, phasedata = plt.subplots()
@@ -65,7 +65,7 @@ fig, phasedata = plt.subplots()
 phasedata.plot(spectrum, phase, color='green')
 phasedata.set(xlabel='Frequency (MHz)', ylabel='Phase (Radians)', title='Phase of a 179 kHz PWM Square Wave on the Frequency Spectrum')
 plt.grid()
-plt.savefig('phase.png')
+plt.savefig('assets\phase.png')
 
 #Create a plot showing the Fourier coefficients throughout the frequency spectrum
 fig, coefficients = plt.subplots()
@@ -80,7 +80,7 @@ coefficients.plot(spectrum, aharmonics[5], color='gray', label='Fifth Harmonic')
 coefficients.set(xlabel='Frequency (MHz)', ylabel='Amplitude (GV)', title='Fourier Coefficients Throughout the Frequency Spectrum')
 coefficients.legend()
 plt.grid()
-plt.savefig('coefficients.png')
+plt.savefig('assets\coefficients.png')
 
 #Create a plot of the initial PWM square wave that we are characterizing
 fig, squarewave = plt.subplots()
@@ -89,6 +89,6 @@ frequency = 179000
 squarewave.plot(t*1e6, signal.square(2*np.pi*t*frequency, duty=.25))
 squarewave.set(xlabel='Time (us)', ylabel='Amplitude (V)', title='PWM Square Wave at 179 kHz and 25% Duty Cycle')
 plt.grid()
-plt.savefig('squarewave.png')
+plt.savefig('assets\squarewave.png')
 
 plt.show()
