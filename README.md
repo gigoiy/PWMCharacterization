@@ -35,6 +35,20 @@
 ## Program Architecture
 ![Architecture Diagram](assets/PWMCharacterizationArchitectureDiagram.png)
 
+## Performance Notes  
+
+*Notes are related to the performance of algorithm.py*
+
+**CPU Time:** 3.988 seconds  
+
+**Peak Memory:** 7055.515625 KB
+
+**Hardware Used**
+
+- **GPU:** Nvidia RTX 4070
+- **Memory:** 32 GB (4x8 GB) DDR4 RAM @ 3200 MHz
+- **CPU:** AMD Ryzen 7 5700X3D @ 3.00 GHz
+
 ## Installing Dependencies if Developing
 
 1. Open up terminal in project directory and navigate to `...\PWMCharacterization\src`
